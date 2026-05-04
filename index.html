@@ -10,28 +10,28 @@
         header { background: var(--primary); color: white; padding: 2rem 1rem; text-align: center; }
         nav { background: #003366; padding: 10px; text-align: center; position: sticky; top: 0; z-index: 100; }
         nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        .hero { padding: 80px 20px; text-align: center; background: var(--bg); border-bottom: 1px solid #ddd; }
+        .hero { padding: 60px 20px; text-align: center; background: var(--bg); border-bottom: 1px solid #ddd; }
         .container { max-width: 950px; margin: auto; padding: 40px 20px; }
         .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin: 30px 0; }
         .service-card { background: white; padding: 25px; border-radius: 10px; border-top: 5px solid var(--primary); box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
         .cta-box { background: var(--primary); color: white; padding: 40px; border-radius: 15px; text-align: center; margin-top: 40px; }
-        .cta-button { display: inline-block; background: var(--accent); color: white; padding: 18px 35px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.1rem; transition: 0.3s; }
-        .cta-button:hover { background: #d35400; transform: translateY(-2px); }
-        footer { background: #1a1a1a; color: #ccc; text-align: center; padding: 30px; margin-top: 50px; font-size: 0.9rem; }
-        h2 { color: var(--primary); border-bottom: 2px solid var(--bg); padding-bottom: 10px; }
+        .cta-button { display: inline-block; background: var(--accent); color: white; padding: 18px 35px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.1rem; }
+        footer { background: #1a1a1a; color: #ccc; text-align: center; padding: 30px; margin-top: 50px; }
+        h2 { color: var(--primary); }
+        .text-block { margin-bottom: 30px; background: #fff; padding: 20px; border-radius: 8px; }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Suunta ICT Oy</h1>
-    <p>Selkeyttä ja suuntaa yrityksesi IT-ympäristöön</p>
+    <p>Asiantuntevaa ja selkokielistä IT-palvelua pienyrittäjille</p>
 </header>
 
 <nav>
     <a href="#etusivu">Etusivu</a>
     <a href="#palvelut">Palvelut</a>
-    <a href="#miksi-me">Miksi me?</a>
+    <a href="#tarina">Tarinamme</a>
     <a href="#yhteys">Ota yhteyttä</a>
 </nav>
 
@@ -44,46 +44,49 @@
 </section>
 
 <section id="palvelut" class="container">
-    <h2>Asiantuntevaa ICT-tukea, joka puhuu samaa kieltä kanssasi</h2>
-    <p>Me Suunta ICT:llä uskomme, että parhaat digitaaliset ratkaisut ovat niitä, jotka toimivat taustalla luotettavasti ja huomaamatta. Emme hukuta sinua tekniseen sanastoon, vaan tarjoamme konkreettisia ratkaisuja liiketoimintasi tueksi. Tarjoamme kattavat ja räätälöidyt palvelut erityisesti pienyritysten tarpeisiin:</p>
+    <h2>Asiantuntevaa ICT-tukea pienyrityksille</h2>
+    <p>Me Suunta ICT:llä uskomme, että parhaat digitaaliset ratkaisut ovat niitä, jotka toimivat taustalla luotettavasti ja huomaamatta. Emme hukuta sinua tekniseen sanastoon, vaan tarjoamme konkreettisia ratkaisuja liiketoimintasi tueksi.</p>
     
     <div class="services">
         <div class="service-card">
             <h3>Laitteet ja asennuspalvelut</h3>
-            <p>Hankimme, esimääritämme ja asennamme kaikki tarvittavat tietokoneet, mobiililaitteet sekä verkkolaitteet puolestasi. Saat laitteet toimitettuna suoraan työpisteellesi heti käyttövalmiina, ilman asennusrumbaa.</p>
+            <p>Hankimme, esimääritämme ja asennamme kaikki tarvittavat tietokoneet, mobiililaitteet sekä verkkolaitteet puolestasi.[cite: 1] Saat laitteet toimitettuna suoraan työpisteellesi heti käyttövalmiina.[cite: 1]</p>
         </div>
         <div class="service-card">
             <h3>Modernit pilvipalvelut</h3>
-            <p>Siirrämme yrityksesi sähköpostit, kalenterit ja tiedostot turvallisesti pilveen (M365 tai Google Workspace). Tämän ansiosta sujuva ja tietoturvallinen etätyö onnistuu vaivatta missä tahansa ja millä tahansa laitteella.</p>
+            <p>Siirrämme yrityksesi sähköpostit ja tiedostot turvallisesti pilveen (M365 tai Google Workspace).[cite: 1] Tämän ansiosta sujuva ja tietoturvallinen etätyö onnistuu vaivatta missä tahansa.[cite: 1]</p>
         </div>
         <div class="service-card">
             <h3>Tietoturva ja ylläpito</h3>
-            <p>Pidämme huolen, että yrityksesi tärkeät tiedot on suojattu nykyaikaisilla työkaluilla. Huolehdimme varmuuskopioinnista ja jatkuvasta valvonnasta, jotta tiedot ovat aina palautettavissa – tapahtuipa mitä tahansa.</p>
+            <p>Pidämme huolen, että yrityksesi tärkeät tiedot on suojattu nykyaikaisilla työkaluilla.[cite: 1] Huolehdimme varmuuskopioinnista, jotta tiedot ovat aina palautettavissa.[cite: 1]</p>
         </div>
     </div>
 </section>
 
-<section id="miksi-me" class="container" style="background: #fdfdfd; border-radius: 10px;">
-    <h3>Miksi valita yhteistyökumppaniksi juuri Suunta ICT?</h3>
-    <p>Pienyrittäjänä tiedät, että jokainen tunti on arvokas. Me emme myy sinulle pelkkiä ohjelmistolisenssejä, vaan tarjoamme aitoa mielenrauhaa ja ammattitaitoa. Kun ulkoistat IT-huolesi meille, säästät viikoittain useita tunteja turhautumiselta ja tekniseltä pähkäilyltä. Olemme joustava, paikallinen ja aina tavoitettavissa oleva kumppani, joka haluaa aidosti auttaa yritystäsi menestymään digitaalisessa maailmassa.</p>
+<section id="tarina" class="container">
+    <div class="text-block">
+        <h2>Tarinamme ja arvomme</h2>
+        <p>Suunta ICT Oy sai alkunsa halusta auttaa niitä pienyrittäjiä, jotka kokivat jäävänsä suurten IT-talojen jalkoihin.[cite: 1] Huomasimme, että markkinoilla oli huutava pula kumppanista, joka osaa selittää monimutkaiset asiat ymmärrettävästi ja toimia joustavasti pienellä budjetilla.[cite: 1]</p>
+        <p>Arvoihimme kuuluu rehellisyys, ihmisläheisyys ja jatkuva kehittyminen. Emme myy sinulle sellaista, mitä et tarvitse.[cite: 1] Sen sijaan keskitymme rakentamaan kestävää ja tietoturvallista pohjaa, jonka päällä yrityksesi voi kasvaa.[cite: 1] Olemme olleet mukana lukuisissa projekteissa, joissa vanhentuneet järjestelmät on korvattu moderneilla pilvipalveluilla, mikä on säästänyt asiakkailtamme satoja työtunteja vuodessa.[cite: 1]</p>
+    </div>
 </section>
 
 <section id="yhteys" class="container">
     <div class="cta-box">
         <h2>Laitetaanko yrityksesi digiasiat kerralla kuntoon?</h2>
-        <p>Älä odota siihen asti, että järjestelmä kaatuu tai tietoturvauhka toteutuu. Ennakoiva IT-ylläpito on aina huomattavasti edullisempaa ja stressittömämpää kuin kriittisten vahinkojen korjailu jälkikäteen.</p>
-        <p><strong>Ota meihin yhteyttä jo tänään – vastaamme arkipäivän sisällä!</strong></p>
+        <p>Älä odota siihen asti, että järjestelmä kaatuu.[cite: 1] Ennakoiva IT-ylläpito on aina huomattavasti edullisempaa ja stressittömämpää kuin kriittisten vahinkojen korjailu.[cite: 1]</p>
+        <p><strong>Ota meihin yhteyttä jo tänään:</strong></p>
         <p style="font-size: 1.2rem;">
             📞 040 123 4567<br>
             ✉️ info@suuntaict.fi<br>
-            📍 ICT-katu 1, 00100 Helsinki
+            📍 ICT-katu 1, 00100 Helsinki[cite: 1]
         </p>
     </div>
 </section>
 
 <footer>
-    <p>&copy; 2026 Suunta ICT Oy | ICT-alan ammattitekstin harjoitustyö | Kaikki oikeudet pidätetään.</p>
-    <p><small>Tämä verkkosivu on laadittu osana ammattitekstin kirjoittamisen opintojaksoa. Yritys ja sen yhteystiedot ovat kuvitteellisia.</small></p>
+    <p>&copy; 2026 Suunta ICT Oy | Ammattitekstin harjoitustyö |[cite: 1]</p>
+    <p><small>Tämä verkkosivu on laadittu osana ammattitekstin kirjoittamisen opintojaksoa. Kaikki yrityksen tiedot ovat kuvitteellisia.[cite: 1]</small></p>
 </footer>
 
 </body>
